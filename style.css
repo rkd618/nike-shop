@@ -439,26 +439,6 @@ ul {
     #nav-part1 img {
         margin-left: 0px;
     }
-    .read-less-button {
-        position: absolute;
-        cursor: pointer;
-        padding: 5px 7px;
-        border-radius: 3px;
-        font-size: 17px;
-        font-weight: 480;
-        border: none;
-        background: #B22222;
-    }
-    .read-less-button {
-        position: absolute;
-        cursor: pointer;
-        padding: 5px 7px;
-        border-radius: 3px;
-        font-size: 17px;
-        font-weight: 480;
-        border: none;
-        background: #B22222;
-    }
 }
 
 @media(max-width: 767px) {
@@ -591,7 +571,7 @@ ul {
     p {
         font-size: 1.0rem ;
     }
-
+    
     .row .footer-col {
         width: 100%;
         justify-content: center;
@@ -603,7 +583,6 @@ ul {
     #nav {
         width: 100%;
         padding: 0 0px;
-        /* Add 10 pixels of padding on the left and right */
         box-sizing: border-box;
     }
 }
