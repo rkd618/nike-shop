@@ -205,7 +205,7 @@ span {
     background: #B22222;
     padding: 6px 8px;
     border-radius: 3px;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 500;
     border: none;
     left: 0;
@@ -235,6 +235,12 @@ span {
     top: 0;
     font-size: 18px;
 }
+.elem .description p{
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 4px;
+    
+}
 
 .read-less-button {
     position: absolute;
@@ -242,12 +248,11 @@ span {
     margin-top: 24px;
     padding: 6px 8px;
     border-radius: 3px;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 500;
     border: none;
     background: #B22222;
 }
-
 
 .footer {
     background-color: #D0D4D5;
@@ -434,6 +439,26 @@ ul {
     #nav-part1 img {
         margin-left: 0px;
     }
+    .read-less-button {
+        position: absolute;
+        cursor: pointer;
+        padding: 5px 7px;
+        border-radius: 3px;
+        font-size: 17px;
+        font-weight: 480;
+        border: none;
+        background: #B22222;
+    }
+    .read-less-button {
+        position: absolute;
+        cursor: pointer;
+        padding: 5px 7px;
+        border-radius: 3px;
+        font-size: 17px;
+        font-weight: 480;
+        border: none;
+        background: #B22222;
+    }
 }
 
 @media(max-width: 767px) {
@@ -519,7 +544,7 @@ ul {
 
     #left p {
         width: 80%;
-        font-size: 18px;
+        font-size: 16px;
         text-transform: uppercase;
         justify-content: center;
     }
@@ -533,7 +558,11 @@ ul {
         color: #fff;
         justify-content: center;
         border: none;
-
+    }
+    .elem .description p{
+        font-size: 17px;
+        font-weight: 450;
+        padding-left: 3px;   
     }
 }
 
@@ -560,7 +589,7 @@ ul {
     }
 
     p {
-        font-size: 0.98rem !important;
+        font-size: 1.0rem ;
     }
 
     .row .footer-col {
