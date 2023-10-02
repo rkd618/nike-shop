@@ -541,7 +541,7 @@ ul {
     }
     .elem .description p{
         font-size: 17px;
-        font-weight: 450;
+        font-weight: 470;
         padding-left: 3px;   
     }
 }
@@ -571,7 +571,7 @@ ul {
     p {
         font-size: 1.0rem ;
     }
-    
+
     .row .footer-col {
         width: 100%;
         justify-content: center;
